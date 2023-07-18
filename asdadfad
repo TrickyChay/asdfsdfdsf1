@@ -1,6 +1,1 @@
-local args = {
-    [1] = "DesertEgg",
-    [2] = "Gold"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Shared"):WaitForChild("Pets"):WaitForChild("BuyEgg"):FireServer(unpack(args))
+sdvdsvdsfvdfvfd
