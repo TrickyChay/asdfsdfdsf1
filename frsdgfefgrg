@@ -1,0 +1,20 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Run 1s", HidePremium = false, SaveConfig = true, ConfigFolder = "Run 1s"})
+
+local Tab = Window:MakeTab({
+	Name = "World Zero",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Farming"
+})
+
+Tab:AddButton({
+	Name = "Auto Farm",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/HeiKe2022/wz-beta/main/combine.lua"))()
+  	end    
+})
+
