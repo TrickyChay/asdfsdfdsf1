@@ -18,3 +18,40 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddBind({
+	Name = "Destory UI",
+	Default = Enum.KeyCode.J,
+	Hold = false,
+	Callback = function()
+		OrionLib:Destroy()
+	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Da Hood",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Anti Lock & Lock"
+})
+
+Tab:AddButton({
+	Name = "Anti Lock",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/TrickyChay/asdfsdfdsf1/main/afasfdfwsd112'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Lock",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/TrickyChay/asdfsdfdsf1/main/weffwerfw2323blud'))()
+  	end    
+})
+
+Tab:AddParagraph("How To Use Lock","Press C on the player that all.")
+
+Tab:AddParagraph("How To Use Anti Lock","Press Z to use anti lock || press P to turn on aim viewer then press t on the player to see their aim")
